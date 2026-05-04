@@ -21,11 +21,53 @@ pip install -r requirements.txt
 
 ## Inicializar y ejecutar
 
-1. Activar el entorno virtual (Windows PowerShell):
+### Crear y activar el entorno virtual
 
-```powershell
-.\venv\Scripts\Activate.ps1
-```
+- Crear el entorno virtual:
+
+	- Windows (PowerShell):
+
+		```powershell
+		python -m venv venv
+		```
+
+	- Windows (CMD):
+
+		```cmd
+		python -m venv venv
+		```
+
+	- macOS / Linux (bash/zsh):
+
+		```bash
+		python3 -m venv venv
+		```
+
+- Activar el entorno virtual:
+
+	- PowerShell:
+
+		```powershell
+		.\venv\Scripts\Activate.ps1
+		```
+
+	- CMD:
+
+		```cmd
+		venv\Scripts\activate.bat
+		```
+
+	- macOS / Linux:
+
+		```bash
+		source venv/bin/activate
+		```
+
+- Instalar dependencias:
+
+	```bash
+	pip install -r requirements.txt
+	```
 
 2. Ejecutar el script de datos de prueba (opcional):
 
