@@ -7,11 +7,6 @@ API simple para gestionar usuarios usando SQLite y Flask.
 - Python 3.8+
 - Un virtualenv (recomendado)
 
-Instalar dependencias:
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Archivos clave
 
