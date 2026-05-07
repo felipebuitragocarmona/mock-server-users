@@ -8,12 +8,6 @@ API simple para gestionar usuarios usando SQLite y Flask.
 - Un virtualenv (recomendado)
 
 
-## Archivos clave
-
-- `app.py`: servidor Flask y rutas de la API.
-- `seed_users.py`: script para insertar 20 usuarios de prueba.
-- `users.db`: base de datos SQLite creada al inicializar la app.
-
 ## Inicializar y ejecutar
 
 ### Crear y activar el entorno virtual
@@ -64,13 +58,7 @@ API simple para gestionar usuarios usando SQLite y Flask.
 	pip install -r requirements.txt
 	```
 
-2. Ejecutar el script de datos de prueba (opcional):
-
-```powershell
-python seed_users.py
-```
-
-3. Arrancar la app:
+2. Arrancar la app:
 
 ```powershell
 # opción A: ejecutar directamente
